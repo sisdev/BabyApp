@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+
+    -<TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="0.0dip" android:id="@+id/colimmu_id" android:textColor="#ff4a004a" android:textSize="0.0sp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="150.0dip" android:id="@+id/colimmu_name" android:textColor="#ff4a004a" android:textSize="14.0sp" android:paddingLeft="10.0dip" android:gravity="left"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="100.0dip" android:id="@+id/colimmu_dudate" android:textColor="#ff4a004a" android:textSize="14.0sp" android:gravity="center_horizontal"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="100.0dip" android:id="@+id/colimmu_givdate" android:textColor="#ffff3300" android:textSize="15.0sp" android:gravity="right"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="2.0dip" android:layout_width="fill_parent" android:layout_span="4" android:background="@color/bodyborder"/>
+
+</TableRow>
+
+</TableLayout>

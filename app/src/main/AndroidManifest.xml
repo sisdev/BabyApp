@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.sisoft.babyapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon12"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:supportsRtl="true">
+        <activity android:name=".ActivityVaccineCharthtml"></activity>
+        <activity android:name=".ActivityBabyView" />
+        <activity android:name=".ActivityBabyUpdate" />
+        <activity android:name=".ActivityBabyDelete" />
+        <activity android:name=".ActivityAddGivendate" />
+        <activity android:name=".ActivityBabyImmunization" />
+        <activity android:name=".ActivityBabyAdd" />
+        <activity android:name=".ActivityVaccineDetails" />
+        <activity android:name=".ActivityFeatures" />
+        <activity android:name=".ActivityAboutus" />
+        <activity android:name=".ActivityInformation" />
+        <activity android:name=".ActivityWebView1" />
+        <activity android:name=".ActivityFeeding" />
+        <activity android:name=".ActivityVaccineMainPage" />
+        <activity android:name=".ActivityBabyList" />
+        <activity android:name=".ActivityAppHome" />
+        <activity android:name=".ActivityMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".ReceiverReboot"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.REBOOT"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".ReceiverReminderAlarm"
+            android:enabled="true"
+            android:exported="true">
+        </receiver>
+    </application>
+
+</manifest>

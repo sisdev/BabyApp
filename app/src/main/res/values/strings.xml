@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <string name="app_name">Baby Immunization Tracker</string>
+
+    <string name="front">"Welcome to Baby Immunization Tracker - easy way to keep track of your baby health. ◦Reference : Indian Academy Of Pediatrics. ◦Get Feeding Tips. ◦Keep Immunization track record. ◦Email the baby Immunization chart. ◦Learn about baby Immunization Vaccines. ◦Learn about baby Vaccines Details."</string>
+
+    <string name="front2">*Disclaimer : This app should be used in consultation with your doctor.This application gives you the generic Information.</string>
+
+    <string name="feedinfo">"These are general guidelines for feeding healthy babies. Feed your baby only one new food per week. Then you can find out if your baby has a problem with the new food. Talk with the nutritionist or health care provider for more information on feeding your baby. "</string>
+
+    <string name="HiB">"Haemophilus Influenzae Type B (Mandatory) • Prevents -: ◦ Menangitis,which affect membranes surrounding the brain and the spinal cord. • Important info -: ◦ There may be slight redness,swelling or pain at the injected site. "</string>
+
+    <string name="BCG">" Bacillus Calmette Guerin (Mandatory) • Prevents -: ◦ Tuberculosis. • Important info -: ◦ The BCG vaccine can prevent tuberculosis (TB) bacteria from spreading within the body, thus preventing the disease from developing. "</string>
+
+    <string name="HepatitisA">" HepatitisA (Optional) • Prevents -: ◦ Liver function caused by HAV(Hepatitis A virus). • Important info -: ◦ Since Hepatitis A is common in young children.It is advisable to get the vaccination done.. "</string>
+
+    <string name="HepatitisB">"HepatitisB (Optional) • Prevents -: ◦ Liver infection caused by Hepatitis B virusd. • Important info -: ◦ Essentional within 12 Hours of birth to prevent transmission from mother."</string>
+
+    <string name="DPT">"DPT(Mandatory) • Prevents -: ◦ Diptheria(upper respiratory illness),Pertussis(Whooping Cough) and Tetanus. • Important info -: ◦ There may be mild fever,pain and swelling at the injected site. "</string>
+
+    <string name="Influenza">" Influenza (Optional) • Prevents -: ◦ Influenza virus,which causes infection of the respiratory system. • Important info -: ◦ The most common vaccine is Trivalent Influenza Vaccine(TIV). "</string>
+
+    <string name="Typhoid">" Typhoid (Mandatory) • Prevents -: ◦ Typhoid ,a fever caused by Typhoid bacillus. • Important info -: ◦ There are two types of Typhoid vaccines- Inactivated Vaccine(Shot) and Weakened Vaccine. "</string>
+
+    <string name="Varicella">" Varicella (Optional) • Prevents -: ◦ Chickenpox. • Important info -: ◦ Varicella is the primary vaccine for chickenpox. "</string>
+
+    <string name="Rotavirus">" Rotavirus (Optional) • Prevents -: ◦ Rotavirus infection,which causes severe Diarrhoea among infants. • Important info -: ◦ A rotavirus vaccine protects children from rotaviruses, which are the leading cause of severe diarrhea among infants and young children. [1], Each year an estimated 453,000 children die from diarrhoeal disease caused by rotavirus, [2], most of whom live in developing countries, [3] and another two million are hospitalised. [4] Rotavirus is highly contagious and resistant and, regardless of water quality and available sanitation nearly every child in the world is at risk of infection. "</string>
+
+    <string name="Pneumococcal">" Pneumococcal (Optional) • Prevents -: ◦ Pneumococcal disease,caused by Strept. • Important info -: ◦ There may be mild fever,pain and swelling at the injected site. "</string>
+
+    <string name="OPV">" Oral Polio Vaccine (Mandatory) • Prevents -: ◦ Poliomyelitis(Polio),which damages nervous system,causes muscle weakness or paralysis. • Important info -: ◦ Given for free in Govt. hospitals up to the age of 5 yrs. "</string>
+
+    <string name="MMR">" MMR (Mandatory) • Prevents -: ◦ Measles,Mumps,Rubella. • Important info -: ◦ There might be slight fever,joint pain or stiffness after the vaccination. "</string>
+
+    <string name="Measles">" Measles (Mandatory) • Prevents -: ◦ Measles,which causes infection of the respiratory system. • Important info -: ◦ Highly contagious disease.Hence its very important to get the vaccination done on time.. "</string>
+
+    <string name="PCV">" Inactivated Polio Vaccine(Optional) • Prevents -: ◦ (PCV) is a pneumococcal vaccine used to protect infants and young children against disease caused by the bacterium Streptococcus pneumoniae (pneumococcus). • Important info -: ◦There are currently three PCV vaccines available on the global market: Prevnar (called Prevenar in some countries), Synflorix and Prevnar 13. "</string>
+
+    <string name="gndr">Gender</string>
+
+    <string name="dob">D.O.B.</string>
+
+    <string name="bld">Blood Group</string>
+
+    <string name="rh">RH Factor</string>
+
+    <string name="note">Add Special Note</string>
+
+    <string name="name">NAME</string>
+
+    <string name="date">Date</string>
+
+    <string name="dDate">Due Date</string>
+
+    <string name="bcg">BCG</string>
+
+    <string name="opv">OPV</string>
+
+    <string name="dpt">DPT</string>
+
+    <string name="hib">HiB</string>
+
+    <string name="given_date">Given Date</string>
+
+    <string name="our_android_app">Our Android Apps</string>
+
+    <string name="bit">Baby Immunisation Tracker India</string>
+
+    <string name="aa">Assesment App</string>
+
+    <string name="first_aid_help_line">First Aid Help Line</string>
+
+    <string name="ha">Health Recorder</string>
+
+    <string name="ta">Tutorial App (Coming Soon...)</string>
+
+    <string name="mob_number">Mobile:+91-9999-283-283</string>
+
+    <string name="list_baby">List of Babies</string>
+
+    <string name="baby_name">Baby Name</string>
+
+    <string name="colon">:</string>
+
+    <string name="vaccine">Vaccine</string>
+
+    <string name="duration">Duration</string>
+
+    <string name="sn">S.No</string>
+
+    <string name="mail">E-mail us</string>
+
+    <string name="share">Share</string>
+
+    <string name="aboutsis">www.sisoft.in</string>
+
+    <string name="aboutus_text">" We are mobile app developers. We provide mobile apps development of all types:native, web apps and hybrid on iPhone, Android and Blackberry platforms. ."</string>
+
+    <string name="baby_text">Baby</string>
+
+    <string name="vaccine_text">Vaccine</string>
+
+    <string name="feeding_text">Feeding</string>
+
+    <string name="info_text">Info</string>
+
+    <string name="information">Information</string>
+
+    <string name="vaccine_info">Vaccine Info</string>
+
+    <string name="feature_app">Feature of App</string>
+
+    <string name="about_us">About Us</string>
+
+    <string name="feedback">Feedbacks</string>
+
+    <string name="vaccine_chart">Vaccine Chart</string>
+
+    <string name="doctor">Doctor</string>
+
+    <string name="add_baby">Add Baby</string>
+
+    <string name="immunization">Immunization</string>
+
+    <string name="baby_modify">Baby Modify</string>
+
+    <string name="evd">Enter Vaccine Details</string>
+
+    <string name="baby_details">Baby Details</string>
+
+    <string name="months">18 To 24 Months</string>
+
+    <string name="vacine_info">Vaccine Information</string>
+
+    <string name="hepatitis_b">Hepatitis B</string>
+
+    <string name="measles">Measles</string>
+
+    <string name="vericella">Varicella</string>
+
+    <string name="pneumococcal">Pneumococcal</string>
+
+    <string name="influenza">Influenza</string>
+
+    <string name="mmr">MMR</string>
+
+    <string name="typhoid">Typhoid</string>
+
+    <string name="hepatitis_a">Hepatitis A</string>
+
+    <string name="spv">SPV</string>
+
+    <string name="rotavirus">Rotavirus</string>
+
+    <string name="item_email">Email - Schdule</string>
+
+    <string name="item_modify">Modify</string>
+
+    <string name="item_delet">Delete</string>
+
+    <string name="item_view">View</string>
+
+    <string name="food_baby">Foods For Babies</string>
+
+    <string name="birth_month">Birth To 4 Months</string>
+
+    <string name="birth__4_month">4 To 6 Months</string>
+
+    <string name="birth__6_month">6 To 9 Months</string>
+
+    <string name="birth__9_month">9 To 12 Months</string>
+
+    <string name="birth__12_month">12 To 18 Months</string>
+
+    <string name="birth__18_month">18 To 24 Months</string>
+
+    <string name="birth__24_month">24 Months</string>
+
+    <string name="title_activity_web_view">WebView</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_web_view1">WebView1Activity</string>
+    <string name="feed">FEEding INFO</string>
+
+</resources>

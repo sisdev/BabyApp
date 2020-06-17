@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+
+
+    -<RelativeLayout android:layout_height="50.0dip" android:layout_width="fill_parent" android:layout_margin="2.0dip" android:background="@drawable/topbgimage" android:id="@id/toplayout">
+
+    <Button android:layout_height="55.0dip" android:layout_width="50.0dip" android:layout_margin="5.0dip" android:background="@drawable/back" android:id="@+id/but_back_infous" android:layout_alignParentLeft="true"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt" android:layout_centerInParent="true" android:text="@string/aboutsis" android:layout_marginTop="10.0dip" android:textColor="#ffffffff" android:textStyle="bold" android:typeface="serif" android:textSize="22.0sp"/>
+
+</RelativeLayout>
+
+
+    -<ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" android:layout_below="@id/toplayout">
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:layout_marginLeft="12.0dip">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/sisbanner" android:id="@+id/btn_sisimage" android:layout_marginTop="10.0dip" android:layout_marginLeft="20.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_aboutus_text" android:text="@string/aboutus_text" android:textStyle="normal" android:layout_below="@id/btn_sisimage" style="@style/text" android:singleLine="false" android:paddingLeft="10.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_margin="10.0dip" android:background="@drawable/topbgimage" android:id="@+id/aboutus_text3" android:text="@string/our_android_app" android:textColor="#ffffffff" android:textStyle="bold" android:textSize="20.0sp" android:layout_below="@id/txt_aboutus_text" android:paddingLeft="10.0dip" android:gravity="center_vertical"/>
+
+
+    -<TableLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/table_layout" android:layout_below="@id/aboutus_text3">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="5.0dip" android:text="Health App" android:textStyle="bold"/>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="5.0dip" android:background="@drawable/star2" android:id="@+id/image_8" android:paddingLeft="5.0dip"/>
+
+    <Button android:layout_height="40.0dip" android:layout_width="wrap_content" android:layout_margin="2.0dip" android:background="@android:color/transparent" android:id="@+id/btn_bit" android:text="@string/bit" android:textColor="#ff000000" android:textStyle="bold" android:textSize="18.0sp" android:paddingLeft="15.0dip" android:gravity="center|left"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="5.0dip" android:background="@drawable/star2" android:id="@+id/image_3" android:paddingLeft="5.0dip"/>
+
+    <Button android:layout_height="40.0dip" android:layout_width="wrap_content" android:layout_margin="2.0dip" android:background="@android:color/transparent" android:id="@+id/btn_Health_app" android:text="@string/ha" android:textColor="#ff000000" android:textStyle="bold" android:textSize="18.0sp" android:paddingLeft="15.0dip" android:gravity="center|left"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="5.0dip" android:background="@drawable/star2" android:id="@+id/image_2" android:paddingLeft="5.0dip"/>
+
+    <Button android:layout_height="40.0dip" android:layout_width="wrap_content" android:layout_margin="2.0dip" android:background="@android:color/transparent" android:id="@+id/btn_FirstAid" android:text="@string/first_aid_help_line" android:textColor="#ff000000" android:textStyle="bold" android:textSize="18.0sp" android:paddingLeft="15.0dip" android:gravity="center|left"/>
+
+</TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="5.0dip" android:text="Education App" android:textStyle="bold"/>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="5.0dip" android:background="@drawable/star2" android:id="@+id/image_9" android:paddingLeft="5.0dip"/>
+
+    <Button android:layout_height="40.0dip" android:layout_width="wrap_content" android:layout_margin="2.0dip" android:background="@android:color/transparent" android:id="@+id/btn_Assesment" android:text="@string/aa" android:textColor="#ff000000" android:textStyle="bold" android:textSize="18.0sp" android:paddingLeft="15.0dip" android:gravity="center|left"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="5.0dip" android:background="@drawable/star2" android:id="@+id/image_1" android:paddingLeft="5.0dip"/>
+
+    <Button android:layout_height="40.0dip" android:layout_width="wrap_content" android:layout_margin="2.0dip" android:background="@android:color/transparent" android:id="@+id/btn_tutorial" android:text="@string/ta" android:textColor="#ff000000" android:textStyle="bold" android:textSize="18.0sp" android:paddingLeft="15.0dip" android:gravity="center|left"/>
+
+</TableRow>
+
+</TableLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/topbgimage" android:id="@+id/aboutus_text8" android:text="@string/mob_number" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp" android:layout_below="@id/table_layout" android:paddingLeft="10.0dip" android:gravity="center"/>
+
+</RelativeLayout>
+
+</ScrollView>
+
+</RelativeLayout>

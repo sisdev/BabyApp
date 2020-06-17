@@ -1,0 +1,381 @@
+<vaccinechart>
+    
+<chart>
+    <vid>01</vid>
+    <vaccineName>BCG</vaccineName>
+    <day>0</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at birth againest Tuberculosis</info>
+    <duration>At Birth</duration>
+</chart>
+<chart>
+    <vid>02</vid>
+    <vaccineName>OPV 0</vaccineName>
+    <day>0</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at birth againts Polio</info>
+    <duration> At Birth</duration>
+</chart>
+<chart>
+    <vid>03</vid>
+    <vaccineName>Hep-B 1</vaccineName>
+    <day>0</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Adminster Hep-B vaccine to all newborns before hospital discharge</info>
+    <duration>At Birth</duration>
+    
+</chart>
+<chart>
+    <vid>04</vid>
+    <vaccineName>DTwP 1/DTaP 1</vaccineName>
+    <day>42</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 6 weeks from Birth againts DIPHTHERIA, PERTUSIS, TETANUS </info>
+    <duration>6 weeks </duration>
+    
+</chart>
+<chart>
+    <vid>05</vid>
+    <vaccineName>IPV 1</vaccineName>
+    <day>42</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 6 weeks from Birth in the form of injection (optional)</info>
+    <duration>6 weeks</duration>
+    
+</chart>
+<chart>
+    <vid>06</vid>
+    <vaccineName>Hep-B 2</vaccineName>
+    <day>42</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 6 weeks from Birth againts Hepatitis-B</info>
+    <duration>6 weeks</duration>
+    
+</chart>
+<chart>
+    <vid>07</vid>
+    <vaccineName>HiB -1</vaccineName>
+    <day>42</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 6 weeks from Birth againts Influenza</info>
+    <duration>6 weeks</duration>
+    
+</chart>
+<chart>
+    <vid>08</vid>
+    <vaccineName>Rotavirus 1</vaccineName>
+    <day>42</day>
+    <month>0</month>
+    <year>0</year>
+    <info>2 doses or RV-1 and 3 doses of RV-5</info>
+    <duration>6 weeks</duration>
+    
+</chart>
+<chart>
+    <vid>09</vid>
+    <vaccineName>PCV 1</vaccineName>
+    <day>42</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 6 week from Birth againest bacterium Streptococcous pneumoniae(pneumococcus)</info>
+    <duration>6 weeks</duration>
+    
+</chart>
+<chart>
+    <vid>10</vid>
+    <vaccineName>DTwP 2/DTaP 2 </vaccineName>
+    <day>70</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 10 weeks from Birth against DIPHTHERIA, PERTUSIS, TETANUS.</info>
+    <duration>10 weeks</duration>
+
+</chart>
+<chart>
+    <vid>11</vid>
+    <vaccineName>IPV 2</vaccineName>
+    <day>70</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 10 weeks from Birth in the form of injection(optional).</info>
+    <duration>10 weeks</duration>
+
+</chart>
+<chart>
+    <vid>12</vid>
+    <vaccineName>Hib 2</vaccineName>
+    <day>70</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 10 weeks from Birth against Influenza.</info>
+    <duration>10 weeks</duration>
+
+</chart>
+
+<chart>
+    <vid>13</vid>
+    <vaccineName>Rotavirus 2</vaccineName>
+    <day>70</day>
+    <month>0</month>
+    <year>0</year>
+    <info>2 doses or RV-1 and 3 doses of RV-5</info>
+    <duration>10 weeks</duration>
+   
+</chart>
+<chart>
+    <vid>14</vid>
+    <vaccineName>PCV 2</vaccineName>
+    <day>70</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 6 week from Birth againest bacterium Streptococcous pneumoniae(pneumococcus)</info>
+    <duration>10 weeks</duration>
+   
+</chart>
+<chart>
+    <vid>15</vid>
+    <vaccineName>DTwP 3/DTap</vaccineName>
+    <day>98</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 14 weeks from Birth against DIPHTHERIA, PERTUSIS, TETANUS.</info>
+    <duration>14 weeks</duration>
+    
+</chart>
+<chart>
+    <vid>16</vid>
+    <vaccineName>IPV 3</vaccineName>
+    <day>98</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 14 week from Birth againest bacterium Streptococcous pneumoniae(pneumococcus)</info>
+    <duration> 14 weeks</duration>
+    
+</chart>
+<chart>
+    <vid>17</vid>
+    <vaccineName>Hib 3</vaccineName>
+    <day>98</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 14 weeks from Birth against Influenza.</info>
+    <duration>14 weeks</duration>
+   
+</chart>
+<chart>
+    <vid>18</vid>
+    <vaccineName>Rotavirus 3</vaccineName>
+    <day>98</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Only 2 doses of RV 1 are recommended at present</info>
+    <duration>14 weeks</duration>
+   
+    
+</chart>
+<chart>
+    <vid>19</vid>
+    <vaccineName>PCV 3</vaccineName>
+    <day>98</day>
+    <month>0</month>
+    <year>0</year>
+    <info>Given at 14 week from Birth againest bacterium Streptococcous pneumoniae(pneumococcus)</info>
+    <duration>14 weeks</duration>
+</chart>
+<chart>
+    <vid>20</vid>
+    <vaccineName>OPV 1</vaccineName>
+    <day>0</day>
+    <month>6</month>
+    <year>0</year>
+    <info>Given at 6 months againts Polio</info>
+    <duration>6 Months</duration>
+</chart>
+<chart>
+    <vid>21</vid>
+    <vaccineName>Hep-B 3</vaccineName>
+    <day>0</day>
+    <month>6</month>
+    <year>0</year>
+    <info>The final (third or fourth) dose in the HepB vaccine series should be administered no earlier than age 24 weeks and at least 16 weeks after the first dose.</info>
+    <duration> 6 Months</duration>
+</chart>
+<chart>
+    <vid>22</vid>
+    <vaccineName>OPV 2 </vaccineName>
+    <day>0</day>
+    <month>9</month>
+    <year>0</year>
+    <info>Given at 9 months againts Polio</info>
+    <duration>9 Months </duration>
+</chart>
+<chart>
+    <vid>23</vid>
+    <vaccineName>MMR-1</vaccineName>
+    <day>0</day>
+    <month>9</month>
+    <year>0</year>
+    <info>Given at 9 Months from Birth against Mumps, Melease, Rubella.</info>
+    <duration>9 Months</duration>
+</chart>
+<chart>
+    <vid>24</vid>
+    <vaccineName>Typhoid Conjugate Vaccine</vaccineName>
+    <day>0</day>
+    <month>9</month>
+    <year>0</year>
+    <info>Given at 9-12 Months from Birth .</info>
+    <duration>9-12 Months</duration>
+</chart>
+
+<chart>
+    <vid>25</vid>
+    <vaccineName>Hep-A 1</vaccineName>
+    <day>0</day>
+    <month>12</month>
+    <year>0</year>
+    <info>For both killed and live hepatitis-A vaccines, 2 doses are recommended</info>
+    <duration>12 Months </duration>
+</chart>
+
+<chart>
+    <vid>26</vid>
+    <vaccineName>MMR-2</vaccineName>
+    <day>0</day>
+    <month>15</month>
+    <year>0</year>
+    <info>Given at 15 Months from Birth against Mumps, Melease, Rubella.</info>
+    <duration>15 Months</duration>
+</chart>
+
+<chart>
+    <vid>27</vid>
+    <vaccineName>Varicella 1</vaccineName>
+    <day>0</day>
+    <month>15</month>
+    <year>0</year>
+    <info>The risk of breakthrough varicella is lower if given 15 months onwards.</info>
+    <duration>15 Months</duration>
+</chart>
+
+<chart>
+    <vid>28</vid>
+    <vaccineName>PCV booster</vaccineName>
+    <day>0</day>
+    <month>15</month>
+    <year>0</year>
+    <info>Given at 15 month from Birth againest bacterium Streptococcous pneumoniae(pneumococcus)</info>
+    <duration> 15 Months </duration>
+</chart>
+<chart>
+    <vid>29</vid>
+    <vaccineName>DTwP B1/DTaP B1</vaccineName>
+    <day>0</day>
+    <month>16</month>
+    <year>0</year>
+    <info>Given at 16 to 18 month from Birth againts DIPHTHERIA, PERTUSIS, TETANUS </info>
+    <duration>16-18 Months</duration>
+</chart>
+<chart>
+    <vid>30</vid>
+    <vaccineName>IPV B1</vaccineName>
+    <day>0</day>
+    <month>16</month>
+    <year>0</year>
+    <info>Given at 16 to 18 month from Birth in the form of injection (optional</info>
+    <duration> 16-18 Months </duration>
+</chart>
+<chart>
+    <vid>31</vid>
+    <vaccineName>Hib B1</vaccineName>
+    <day>0</day>
+    <month>16</month>
+    <year>0</year>
+    <info>The first booster (4th dose) may be administered as early as age 12 months, provided at least 6 months have elapsed since the third dose.</info>
+    <duration>16-18 months</duration>
+</chart>
+<chart>
+    <vid>32</vid>
+    <vaccineName>Hep-A 2</vaccineName>
+    <day>0</day>
+    <month>18</month>
+    <year>0</year>
+    <info> For both killed and live hepatitis-A vaccines 2 doses are recommended</info>
+    <duration>18 months</duration>
+</chart>
+<chart>
+    <vid>33</vid>
+    <vaccineName>Typhoid Booster</vaccineName>
+    <day>0</day>
+    <month>0</month>
+    <year>2</year>
+    <info>Typhoid revaccination every 3 years, if Vipolysaccharide vaccine is used.</info>
+    <duration>2 year</duration>
+</chart>
+<chart>
+    <vid>34</vid>
+    <vaccineName>DTwP B2/DTAP B2</vaccineName>
+    <day>0</day>
+    <month>6</month>
+    <year>4</year>
+    <info>Given at 4-6 year year from Birth againts DIPHTHERIA, PERTUSIS, TETANUS </info>
+    <duration>4-6 year</duration>
+</chart>
+<chart>
+    <vid>35</vid>
+    <vaccineName>OPV 3</vaccineName>
+    <day>0</day>
+    <month>6</month>
+    <year>4</year>
+    <info>Given at 4 1/2-5 year againts Polio</info>
+    <duration>4-6 year</duration>
+</chart>
+
+
+<chart>
+    <vid>36</vid>
+    <vaccineName>Varicella 2</vaccineName>
+    <day>0</day>
+    <month>6</month>
+    <year>4</year>
+    <info>The 2nd dose can be given at anytime 3 months after the 1st dose.</info>
+    <duration>4-6 year</duration>
+</chart>
+<chart>
+    <vid>37</vid>
+    <vaccineName>Typhoid Booster</vaccineName>
+    <day>0</day>
+    <month>6</month>
+    <year>4</year>
+    <info>Given at 4-6 year 5 year from Birth againts TYPHOID</info>
+    <duration>4-6 year</duration>
+</chart>
+<chart>
+    <vid>38</vid>
+    <vaccineName>Tdap/Td</vaccineName>
+    <day>0</day>
+    <month>0</month>
+    <year>10</year>
+    <info>Tdap/Td is preferred to Td followed by Td every 10 years.</info>
+    <duration>10-12year</duration>
+    
+</chart>
+<chart>
+    <vid>39</vid>
+    <vaccineName>HPV(only for females)</vaccineName>
+    <day>0</day>
+    <month>0</month>
+    <year>10</year>
+    <info>Only for females, 3 doses at 0, 1-2 (depending on brands) and 6 months.</info>
+    <duration>10-12year </duration>
+</chart>
+</vaccinechart>
+
+

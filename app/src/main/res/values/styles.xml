@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+
+    -<style name="ButtonText">
+
+    <item name="android:textSize">16.0sp</item>
+
+    <item name="android:textStyle">bold</item>
+
+    <item name="android:textColor">#ffe6e600</item>
+
+    <item name="android:gravity">center</item>
+
+    <item name="android:layout_width">150.0dip</item>
+
+    <item name="android:layout_height">50.0dip</item>
+
+    <item name="android:shadowColor">#ff000000</item>
+
+    <item name="android:shadowDx">1.0</item>
+
+    <item name="android:shadowDy">1.0</item>
+
+    <item name="android:shadowRadius">2.0</item>
+
+</style>
+
+
+    -<style name="headText">
+
+    <item name="android:textSize">20.0sp</item>
+
+    <item name="android:textStyle">bold</item>
+
+    <item name="android:textColor">#ffffffff</item>
+
+    <item name="android:gravity">center</item>
+
+    <item name="android:layout_width">300.0dip</item>
+
+    <item name="android:layout_height">50.0dip</item>
+
+    <item name="android:shadowColor">#ff000000</item>
+
+    <item name="android:shadowDx">1.0</item>
+
+    <item name="android:shadowDy">1.0</item>
+
+    <item name="android:shadowRadius">2.0</item>
+
+</style>
+
+
+    -<style name="bodytext">
+
+    <item name="android:textSize">16.0sp</item>
+
+    <item name="android:textColor">#ffffffff</item>
+
+    <item name="android:paddingLeft">3.0dip</item>
+
+    <item name="android:paddingBottom">3.0dip</item>
+
+    <item name="android:shadowColor">#ff74b0cf</item>
+
+    <item name="android:shadowDx">1.0</item>
+
+    <item name="android:shadowDy">1.0</item>
+
+    <item name="android:shadowRadius">1.0</item>
+
+</style>
+
+
+    -<style name="Theme.Color" parent="@android:style/Theme">
+
+    <item name="android:textColor">#ffffffff</item>
+
+</style>
+
+
+    -<style name="mainbodytext">
+
+    <item name="android:textSize">16.0sp</item>
+
+    <item name="android:textColor">#ff000072</item>
+
+    <item name="android:paddingLeft">3.0dip</item>
+
+    <item name="android:paddingBottom">3.0dip</item>
+
+    <item name="android:shadowColor">#ff74b0cf</item>
+
+    <item name="android:shadowDx">1.0</item>
+
+    <item name="android:shadowDy">1.0</item>
+
+    <item name="android:shadowRadius">1.0</item>
+
+</style>
+
+
+    -<style name="text">
+
+    <item name="android:textSize">18.0sp</item>
+
+    <item name="android:textColor">#ff4a004a</item>
+
+    <item name="android:paddingLeft">3.0dip</item>
+
+    <item name="android:paddingBottom">3.0dip</item>
+
+</style>
+
+    <style name="MyAppTheme" parent="@android:style/Theme.Holo.Light"/>
+
+
+    -<style name="CustomTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+
+    <item name="android:windowFullscreen">true</item>
+
+    <item name="android:actionBarSize">0.0dip</item>
+
+</style>
+
+</resources>

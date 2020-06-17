@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/email" android:id="@+id/email" android:title="@string/item_email"
+        app:showAsAction="always" />
+    <item android:icon="@drawable/edituser" android:id="@+id/modify" android:title="@string/item_modify"
+        app:showAsAction="always" />
+    <item android:icon="@drawable/delet" android:id="@+id/delete" android:title="@string/item_delet"
+        app:showAsAction="always" />
+    <item android:icon="@drawable/vision_icon" android:id="@+id/view" android:title="@string/item_view"
+        app:showAsAction="always" />
+</menu>

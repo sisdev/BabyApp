@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/topbgimage" android:id="@+id/toplayout_adddr">
+
+    <Button android:layout_height="55.0dip" android:layout_width="50.0dip" android:background="@drawable/back" android:id="@+id/btn_back_vaccinedetails" android:layout_alignParentLeft="true"/>
+
+    <TextView android:id="@+id/txt_vaccine_information" style="@style/headText" android:layout_centerInParent="true" android:text="@string/vacine_info" android:typeface="serif"/>
+
+</RelativeLayout>
+
+
+    -<ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="#ff0000ff" android:id="@+id/scroll_adddr" android:layout_below="@id/toplayout_adddr" android:layout_margin="5.0dip">
+
+
+    -<TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="#ff00fff0">
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/hepatitis_b" android:layout_marginLeft="10.0dip" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/HepatitisB"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="4.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/bcg" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/BCG"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="6.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/opv" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/OPV" android:paddingLeft="10.0dip"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="6.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/dpt" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:paddingLeft="10.0dip"
+        android:text="@string/DPT" />
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="6.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/hib" android:textColor="#ff4a004a" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/HiB"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="6.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/measles" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/Measles"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="6.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/vericella" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/Varicella"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="6.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/pneumococcal" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/Pneumococcal" android:paddingLeft="10.0dip"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="6.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/influenza" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/Influenza"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="6.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/mmr" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/MMR"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="6.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/typhoid" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/Typhoid" android:paddingLeft="10.0dip"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <View android:layout_height="6.0dip" android:layout_width="fill_parent" android:background="@color/greenborder"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/hepatitis_a" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/HepatitisA"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/spv" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/PCV"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/rotavirus" android:textColor="#ff000000" android:textStyle="bold" android:textSize="20.0sp"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/button" style="@style/ButtonText" android:text="@string/Rotavirus"/>
+
+</TableRow>
+
+</TableLayout>
+
+</ScrollView>
+
+</RelativeLayout>

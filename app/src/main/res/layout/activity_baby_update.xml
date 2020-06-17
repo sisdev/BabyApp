@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:fillViewport="true" android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@color/background" android:scrollbarStyle="outsideOverlay">
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@id/add" android:orientation="vertical">
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/topbgimage" android:id="@id/toplayout">
+
+    <TextView android:id="@+id/txt_titalupdate" style="@style/headText" android:layout_centerInParent="true" android:text="@string/baby_modify" android:typeface="serif"/>
+
+    <Button android:layout_height="55.0dip" android:layout_width="50.0dip" android:background="@drawable/dbadd" android:id="@+id/btn_update" android:layout_alignParentRight="true"/>
+
+    <Button android:layout_height="55.0dip" android:layout_width="50.0dip" android:background="@drawable/back" android:id="@id/back" android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
+
+
+    -<TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_below="@id/toplayout">
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@id/name" style="@style/bodytext" android:text="@string/baby_name" android:layout_margin="5.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" style="@style/bodytext" android:text="@string/colon" android:layout_margin="5.0dip"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="150.0dip" android:id="@+id/edit_bnameupdate" style="@style/bodytext" android:inputType="none" android:ems="10" android:layout_marginRight="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginLeft="10.0dip"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+    <View android:layout_height="4.0dip" android:layout_width="fill_parent" android:background="@color/greenborder" android:layout_span="3"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@id/dob" style="@style/bodytext" android:text="@string/dob" android:layout_margin="5.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" style="@style/bodytext" android:text="@string/colon" android:layout_margin="5.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btn_dobupdate" style="@style/bodytext" android:ems="10" android:layout_marginRight="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginLeft="10.0dip"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+    <View android:layout_height="4.0dip" android:layout_width="fill_parent" android:background="@color/greenborder" android:layout_span="3"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@id/gender" style="@style/bodytext" android:text="@string/gndr" android:layout_margin="5.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" style="@style/bodytext" android:text="@string/colon" android:layout_margin="5.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="150.0dip" android:id="@+id/spin_genderupdate" style="@style/bodytext" android:layout_margin="5.0dip"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+    <View android:layout_height="4.0dip" android:layout_width="fill_parent" android:background="@color/greenborder" android:layout_span="3"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@id/Blood" style="@style/bodytext" android:text="@string/bld" android:layout_margin="5.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" style="@style/bodytext" android:text="@string/colon" android:layout_margin="5.0dip"/>
+
+    <Spinner android:layout_height="wrap_content" android:layout_width="150.0dip" android:id="@+id/spin_bloodupdate" style="@style/bodytext" android:layout_margin="5.0dip"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+    <View android:layout_height="4.0dip" android:layout_width="fill_parent" android:background="@color/greenborder" android:layout_span="3"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@id/RH" style="@style/bodytext" android:text="@string/rh" android:layout_margin="5.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" style="@style/bodytext" android:text="@string/colon" android:layout_margin="5.0dip"/>
+
+    <Spinner android:layout_height="wrap_content" android:layout_width="150.0dip" android:id="@+id/spin_rhupdate" style="@style/bodytext" android:layout_margin="5.0dip"/>
+
+</TableRow>
+
+
+    -<TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+    <View android:layout_height="4.0dip" android:layout_width="fill_parent" android:background="@color/greenborder" android:layout_span="3"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@id/txt_Note" style="@style/bodytext" android:text="@string/note" android:layout_margin="5.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" style="@style/bodytext" android:text="@string/colon" android:layout_margin="5.0dip"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <EditText android:layout_height="160.0dip" android:layout_width="wrap_content" android:id="@+id/edit_noteupdate" style="@style/bodytext" android:typeface="sans" android:layout_margin="5.0dip" android:inputType="textMultiLine" android:layout_span="3" android:gravity="top"/>
+
+</TableRow>
+
+</TableLayout>
+
+</RelativeLayout>
+
+</ScrollView>

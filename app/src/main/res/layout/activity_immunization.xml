@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:fillViewport="true" android:layout_height="fill_parent" android:layout_width="fill_parent" android:scrollbarStyle="outsideOverlay">
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/topbgimage" android:id="@id/toplayout">
+
+    <TextView android:id="@id/txt_enter" style="@style/headText" android:layout_centerInParent="true" android:text="@string/immunization" android:typeface="serif"/>
+
+    <Button android:layout_height="55.0dip" android:layout_width="50.0dip" android:background="@drawable/back" android:id="@id/back" android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@id/tbl" android:layout_below="@id/toplayout" android:layout_marginTop="0.0dip" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/vaccine_text" android:typeface="serif" android:layout_marginLeft="10.0dip" android:paddingRight="40.0dip" android:gravity="left" android:textColor="#ff4a004a" android:textStyle="bold" android:textSize="14.0sp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/dDate" android:typeface="serif" android:gravity="center" android:textColor="#ff4a004a" android:textStyle="bold" android:textSize="14.0sp" android:paddingLeft="40.0dip"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/given_date" android:typeface="serif" android:gravity="right" android:textColor="#ff4a004a" android:textStyle="bold" android:textSize="14.0sp" android:paddingLeft="50.0dip"/>
+
+</LinearLayout>
+
+    <TextView android:layout_height="2.0dip" android:layout_width="fill_parent" android:background="#ff4a004a" android:id="@id/spacer" android:layout_below="@id/tbl"/>
+
+    <GridView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/grid_immu" android:layout_below="@id/spacer" android:gravity="top" android:numColumns="1" android:stretchMode="columnWidth" android:verticalSpacing="3.0dip" android:horizontalSpacing="3.0dip"/>
+
+</RelativeLayout>

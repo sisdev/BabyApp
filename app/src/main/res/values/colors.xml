@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <color name="black">#ff041010</color>
+
+    <color name="bodyborder">#ff94dbff</color>
+
+    <color name="greenborder">#99FF33</color>
+
+    <color name="background">#ff32324b</color>
+
+    <color name="oddback">#2196F3</color>
+
+    <color name="evenback">#FF9800</color>
+
+</resources>
